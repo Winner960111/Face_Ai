@@ -13,6 +13,9 @@ HSV分别代表，色调（H：hue），饱和度（S：saturation），亮度�
 
 ![](http://www.nmt.edu/tcc/help/pubs/colortheory/img/cone.png)
 
+=======
+![](http://infohost.nmt.edu/tcc/help/pubs/colortheory/img/cone.png)
+
 # 效果展示 #
 ![](http://icdn.apigo.cn/hsv.gif)
 
