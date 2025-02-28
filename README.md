@@ -52,10 +52,6 @@
 
 [表情识别](doc/emotion.md)
 
-[视频对象提取](https://github.com/vipstone/faceai/blob/master/doc/hsv-opencv.md)
-
-[图片修复](https://github.com/vipstone/faceai/blob/master/doc/inpaint.md)
-
 
 # 其他教程 #
 
@@ -65,14 +61,12 @@
 
 [OpenCV添加中文](doc/chinese.md)
 
-[使用鼠标绘图——OpenCV](https://github.com/vipstone/faceai/blob/master/doc/opencv/mouse.md)
-
 
 # 功能预览 #
 
 **绘制脸部轮廓**
 
-<img src="https://raw.githubusercontent.com/vipstone/faceai/master/res/face_recognition-outline.png" width = "250" height = "300" alt="绘制脸部轮廓" />
+<img src="https://raw.githubusercontent.com/Winner960111/faceai/master/res/face_recognition-outline.png" width = "250" height = "300" alt="绘制脸部轮廓" />
 
 ----------
 
