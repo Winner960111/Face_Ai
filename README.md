@@ -66,7 +66,7 @@
 
 **绘制脸部轮廓**
 
-<img src="https://raw.githubusercontent.com/Winner960111/faceai/master/res/face_recognition-outline.png" width = "250" height = "300" alt="绘制脸部轮廓" />
+<img src="https://raw.githubusercontent.com/vipstone/faceai/master/res/face_recognition-outline.png" width = "250" height = "300" alt="绘制脸部轮廓" />
 
 ----------
 
