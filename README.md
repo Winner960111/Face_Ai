@@ -1,23 +1,23 @@
-# 功能 #
+# Features #
 
-1. 人脸检测、识别（图片、视频）
-1. 轮廓标识
-1. 头像合成（给人戴帽子）
-1. 数字化妆（画口红、眉毛、眼睛等）
-1. 性别识别
-1. 表情识别（生气、厌恶、恐惧、开心、难过、惊喜、平静等七种情绪）
-2. 视频对象提取
-3. 图片修复（可用于水印去除）
-4. 图片自动上色
-3. 眼动追踪（待完善）
-3. 换脸（待完善）
+1. Face detection and recognition (images and videos)
+1.Outline identification
+1. Avatar synthesis (putting hats on people)
+1. Digital makeup (applying lipstick, eyebrows, eyes, etc.)
+1.Gender recognition
+1. Expression recognition (seven emotions: anger, disgust, fear, happiness, sadness, surprise, and calmness)
+2. Video object extraction
+3. Image restoration (can be used for watermark removal)
+4. Automatic image colorization
+3. Eye tracking (to be improved)
+3. Face swapping (to be improved)
 
-**查看功能预览↓↓↓**
+**See feature preview↓↓↓**
 
-# 开发环境 #
+# Development Environment #
 
-- Windows 10（x64）
-- Python 3.6.4
+- Windows 10 (x64)
+-Python 3.6.4
 - OpenCV 3.4.1
 - Dlib 19.8.1
 - face_recognition 1.2.2
@@ -25,133 +25,128 @@
 - tensorflow 1.8.0
 - Tesseract OCR 4.0.0-beta.1
 
+# Tutorial #
 
-# 教程 #
+[OpenCV Environment Setup](doc/settingup.md)
 
-[OpenCV环境搭建](doc/settingup.md)
+[Tesseract OCR Text Recognition (doc/tesseractOCR.md)
 
-[Tesseract OCR文字识别](doc/tesseractOCR.md)
+Face Detection in Images (OpenCV Version) (doc/detectionOpenCV.md)
 
-[图片人脸检测（OpenCV版）](doc/detectionOpenCV.md)
+Face Detection in Images (Dlib Version) (doc/detectionDlib.md)
 
-[图片人脸检测（Dlib版）](doc/detectionDlib.md)
+Face Detection in Videos (OpenCV Version) (doc/videoOpenCV.md)
 
-[视频人脸检测（OpenCV版）](doc/videoOpenCV.md)
+Face Detection in Videos (Dlib Version) (doc/videoDlib.md)
 
-[视频人脸检测（Dlib版）](doc/videoDlib.md)
+Face Outline Drawing (doc/faceRecognitionOutline.md)
 
-[脸部轮廓绘制](doc/faceRecognitionOutline.md)
+Digital Makeup (doc/faceRecognitionMakeup.md)
 
-[数字化妆](doc/faceRecognitionMakeup.md)
+Face Recognition in Videos (doc/faceRecognition.md)
 
-[视频人脸识别](doc/faceRecognition.md)
+Avatar Effect Composition (doc/compose.md)
 
-[头像特效合成](doc/compose.md)
+Gender Recognition (doc/gender.md)
 
-[性别识别](doc/gender.md)
+Expression Recognition (doc/emotion.md)
 
-[表情识别](doc/emotion.md)
+# Other Tutorials #
 
+[Ubuntu [Replace apt-get and pip sources](doc/ubuntuChange.md)
 
-# 其他教程 #
+[Replace pip/pip3 domestic sources - Windows version](doc/pipChange.md)
 
-[Ubuntu apt-get和pip源更换](doc/ubuntuChange.md)
+[Add Chinese to OpenCV](doc/chinese.md)
 
-[pip/pip3更换国内源——Windows版](doc/pipChange.md)
+# Feature Preview #
 
-[OpenCV添加中文](doc/chinese.md)
+**Drawing facial outline**
 
-
-# 功能预览 #
-
-**绘制脸部轮廓**
-
-<img src="https://raw.githubusercontent.com/vipstone/faceai/master/res/face_recognition-outline.png" width = "250" height = "300" alt="绘制脸部轮廓" />
+<img src="https://raw.githubusercontent.com/vipstone/faceai/master/res/face_recognition-outline.png" width = "250" height = "300" alt="Drawing facial outline" />
 
 ----------
 
-**人脸68个关键点标识**
+**Identifying 68 key points on the face**
 
-<img src="https://raw.githubusercontent.com/vipstone/faceai/master/res/dlib68.png" width = "230" height = "300" alt="人脸68个关键点标识" />
-
-----------
-
-**头像特效合成**
-
-<img src="https://raw.githubusercontent.com/vipstone/faceai/master/res/compose.png" width = "200" height = "300" alt="头像特效合成"  />
+<img src="https://raw.githubusercontent.com/vipstone/faceai/master/res/dlib68.png" width = "230" height = "300" alt="Identifying 68 key points on the face" />
 
 ----------
 
-**性别识别**
+**Avatar special effects synthesis**
 
-<img src="https://raw.githubusercontent.com/vipstone/faceai/master/res/gender.png" width = "430" height = "220" alt="性别识别"  />
-
-----------
-
-**表情识别**
-
-<img src="https://raw.githubusercontent.com/vipstone/faceai/master/res/emotion.png" width = "250" height = "300" alt="表情识别"  />
+<img src="https://raw.githubusercontent.com/vipstone/faceai/master/res/compose.png" width = "200" height = "300" alt="Avatar Effect Composition" />
 
 ----------
 
-**数字化妆**
+**Gender Recognition**
 
-<img src="https://raw.githubusercontent.com/vipstone/faceai/master/res/faceRecognitionMakeup-1.png" width = "450" height = "300" alt="视频人脸识别"  />
+<img src="https://raw.githubusercontent.com/vipstone/faceai/master/res/gender.png" width = "430" height = "220" alt="Gender Recognition" />
 
 ----------
 
-**视频人脸检测**
+**Emotion Recognition**
+
+<img src="https://raw.githubusercontent.com/vipstone/faceai/master/res/emotion.png" width = "250" height = "300" alt="Emotion Recognition" />
+
+----------
+
+**Digital Makeup**
+
+<img src="https://raw.githubusercontent.com/vipstone/faceai/master/res/faceRecognitionMakeup-1.png" width = "450" ​​height = "300" alt="Video Face Recognition" />
+
+----------
+
+**Video Face Detection**
 
 ![](https://raw.githubusercontent.com/vipstone/faceai/master/res/video-jiance.gif)
 
 ----------
 
-**视频人脸识别**
+**Video Face Recognition**
 
 ![](https://raw.githubusercontent.com/vipstone/faceai/master/res/faceRecognition.gif)
 
 ----------
 
-**视频人脸识别**
+**Video Face Recognition**
 
 ![](http://icdn.apigo.cn/opencv-hsv.gif)
 
 ----------
 
-**图片修复**
+**Image Inpainting**
 
 ![](http://icdn.apigo.cn/inpaint.png?2)
 
 ----------
 
-**图片自动上色**
+**Image Automatic Colorization**
 
 ![](http://icdn.apigo.cn/colorize-faceai.png)
 
 ----------
 
-# 技术方案 #
+# Technical Solution #
 
-技术实现方案介绍
+Technical Implementation Solution Introduction
 
-	人脸识别：OpenCV / Dlib
-	
-	人脸检测：face_recognition
-	
-	性别识别：keras + tensorflow
-	
-	文字识别：Tesseract OCR
+Face Recognition: OpenCV / Dlib
 
+Face Detection: face_recognition
+
+Gender Recognition: Keras + TensorFlow
+
+Text Recognition: Tesseract OCR
 
 ### TODO ###
 
-换脸——待完善
+Face Swapping — To Be Improved
 
-眼睛移动方向检测——待完善
+Eye Movement Direction Detection — To Be Improved
 
-Dlib性能优化方案
+Dlib Performance Optimization Solution
 
-Dlib模型训练方法
+Dlib Model Training Method
 
-Tesseract模型训练方法
-
+Tesseract Model Training Method
